@@ -7,7 +7,9 @@ forever start app.js
 ps -eaf | grep forever
 
 kill -9 pid
+
 or
+
 *forever* list
 
 kill -9 pid
