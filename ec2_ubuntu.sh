@@ -9,7 +9,7 @@ tar -xvf node-v0.10.32.tar.gz
 cd node-v0.10.32
 ./configure && make && sudo make install
 cd /home/ubuntu
-sudo npm install express
+sudo npm install express body-parser
 sudo npm install forever -g
 mkdir application
 cd application
